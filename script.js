@@ -31,6 +31,7 @@ function getDetails() {
                         <p><strong>Presbytery:</strong> ${user.Presbytery}</p>
                         <p><strong>Kohhran:</strong> ${user.Kohhran}</p>
                         <p><strong>Thlen In:</strong> ${user['Thlen In']}</p>
+                        <p><strong>Thlen dan tur:</strong> ${user['Thlen dan tur']}</p>
                     </div>
                 `).join('');
             } else {
